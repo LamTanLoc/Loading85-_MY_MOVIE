@@ -1,0 +1,43 @@
+
+.ChonLoaiPhim{
+    // margin: 30px;
+    // .title_chon{
+    //     font-size: 20px;
+    //     color: red;
+    //     font-weight: 500;
+    //     cursor: pointer;
+ 
+    //     &:active{
+    //         font-size: 30px;
+    //     }
+    // }
+    background-image: url("../../../../assets/images/old-grunge-cement-wall-backgrounds_34552-195.jpg");
+    display: flex;
+    border: 2px solid orange;
+    border-bottom: 0px;
+    border-radius: 5px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    width: 60%;
+    margin: 0 auto;
+    /* align-items: center; */
+    justify-content: center;
+    padding: 22px 0 10px 0;
+    .active:active{
+        border: 1px white solid;
+    }
+    .btn_phim:hover {
+      border: 1px white solid;
+
+    }
+}
+.loaiPhim{
+   background-image: url('../../../../assets/images/night-shining-starry-sky-copy-space_23-2148227230.jpg');
+   background-size: cover;
+   background-repeat: repeat;
+   border: 2px solid orange;
+   
+    width:100%;
+    height:620px;
+    overflow-y: scroll;
+}

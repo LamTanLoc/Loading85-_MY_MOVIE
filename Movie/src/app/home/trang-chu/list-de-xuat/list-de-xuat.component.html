@@ -1,0 +1,8 @@
+<div class="container phimDeXuat" #phimDeXuat>
+  <div class="row m-0">
+    <div class="col-md-3 col-sm-6 itemPhimDeXuat" *ngFor="let item of listDeXuat |slice:1:12">
+      <app-item-de-xuat [phim]="item"></app-item-de-xuat>
+    </div>
+  </div>
+
+</div>

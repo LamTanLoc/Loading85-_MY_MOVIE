@@ -1,0 +1,14 @@
+.tintuc{
+
+    // background-color: rgba(223, 221, 221, 0.8);
+    background: linear-gradient(to bottom, #ebebea,#f0f0ef,#eeeeed);
+
+    .btn__tintuc{
+        margin: 10px;
+        transition: 0.3s;
+        &:hover{
+            border:1px solid white;
+        }
+       
+    }
+}

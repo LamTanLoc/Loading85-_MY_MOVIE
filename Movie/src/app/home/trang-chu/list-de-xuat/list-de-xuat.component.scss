@@ -1,0 +1,12 @@
+.phimDeXuat {
+  height: 500px;
+  overflow-x: scroll;
+  z-index: 0;
+  display: flex;
+  border: 2px solid orange;
+
+  .itemPhimDeXuat {
+    padding-right: 11px;
+    padding-left: 11px;
+  }
+}

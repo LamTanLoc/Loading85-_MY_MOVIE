@@ -1,0 +1,16 @@
+<div class="col-md-12 text-center  ChonLoaiPhim">
+  <button class="btn btn_phim btn btn-danger  active mr-4 p-2 " (click)="AnHien('phimDangChieu')"> Phim Đang Chiếu </button>
+  <button class="btn btn_phim btn-danger " (click)="AnHien('phimSapChieu')"> Phim Sắp Chiếu </button>
+</div>
+<div class="row loaiPhim mx-0 ">
+  <div class="container px-0">
+      <div class="col-md-12 " *ngIf = "phimDangChieu">
+          <app-phim-dang-chieu></app-phim-dang-chieu>
+        </div>
+        <div class="col-md-12" *ngIf = "phimSapChieu">
+          <app-phim-sap-chieu></app-phim-sap-chieu>
+        </div>
+  </div>
+  
+
+</div>
